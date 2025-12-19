@@ -1,32 +1,217 @@
 {
-    "color": {
-        "neutral": {
-            "light": {
-                "$type": "color",
-                "$value": {
-                    "colorSpace": "srgb",
-                    "components": [1, 1, 1],
-                    "hex": "#ffffff"
-                }
-            }
-        }
-    },
-    "typography": {
-        "heading-level-1": {
-            "$type": "typography",
-            "$value": {
-                "fontFamily": "Roboto",
-                "fontSize": {
-                    "value": 42,
-                    "unit": "px"
-                },
-                "fontWeight": 700,
-                "letterSpacing": {
-                    "value": 0.1,
-                    "unit": "px"
-                },
-                "lineHeight": 1.2
-            }
-        }
-    }
+	"jf": {
+		"color": {
+			"neutral": {
+				"light": {
+					"$type": "color",
+					"$value": {
+						"colorSpace": "srgb",
+						"components": [
+							1,
+							1,
+							1
+						],
+						"hex": "#ffffff"
+					}
+				}
+			}
+		},
+		"typography": {
+			"font-family": {
+				"figtree": {
+					"$type": "font-family",
+					"$value": [
+						"Figtree",
+						"ArVerdanaial",
+						"sans-serif"
+					]
+				},
+				"noto-sans": {
+					"$type": "font-family",
+					"$value": [
+						"Noto Sans",
+						"Arial",
+						"sans-serif"
+					]
+				}
+			},
+			"font-size": {
+				"2xs": {
+					"$type": "dimension",
+					"$value": {
+						"value": 0.625,
+						"unit": "rem"
+					}
+				},
+				"xs": {
+					"$type": "dimension",
+					"$value": {
+						"value": 0.75,
+						"unit": "rem"
+					}
+				},
+				"sm": {
+					"$type": "dimension",
+					"$value": {
+						"value": 0.875,
+						"unit": "rem"
+					}
+				},
+				"md": {
+					"$type": "dimension",
+					"$value": {
+						"value": 1,
+						"unit": "rem"
+					}
+				},
+				"lg": {
+					"$type": "dimension",
+					"$value": {
+						"value": 1.125,
+						"unit": "rem"
+					}
+				},
+				"xl": {
+					"$type": "dimension",
+					"$value": {
+						"value": 1.25,
+						"unit": "rem"
+					}
+				},
+				"2xl": {
+					"$type": "dimension",
+					"$value": {
+						"value": 1.5,
+						"unit": "rem"
+					}
+				},
+				"3xl": {
+					"$type": "dimension",
+					"$value": {
+						"value": 2,
+						"unit": "rem"
+					}
+				}
+			},
+			"weight": {
+				"100": {
+					"$type": "number",
+					"$value": 100
+				},
+				"200": {
+					"$type": "number",
+					"$value": 200
+				},
+				"300": {
+					"$type": "number",
+					"$value": 300
+				},
+				"400": {
+					"$type": "number",
+					"$value": 400
+				},
+				"500": {
+					"$type": "number",
+					"$value": 500
+				},
+				"600": {
+					"$type": "number",
+					"$value": 600
+				},
+				"700": {
+					"$type": "number",
+					"$value": 700
+				},
+				"800": {
+					"$type": "number",
+					"$value": 800
+				},
+				"900": {
+					"$type": "number",
+					"$value": 900
+				}
+			}
+		},
+		"space": {
+			"2xs": {
+				"$type": "dimension",
+				"$value": {
+					"value": 0.125,
+					"unit": "rem"
+				}
+			},
+			"xs": {
+				"$type": "dimension",
+				"$value": {
+					"value": 0.25,
+					"unit": "rem"
+				}
+			},
+			"sm": {
+				"$type": "dimension",
+				"$value": {
+					"value": 0.5,
+					"unit": "rem"
+				}
+			},
+			"md": {
+				"$type": "dimension",
+				"$value": {
+					"value": 1,
+					"unit": "rem"
+				}
+			},
+			"lg": {
+				"$type": "dimension",
+				"$value": {
+					"value": 1.5,
+					"unit": "rem"
+				}
+			},
+			"xl": {
+				"$type": "dimension",
+				"$value": {
+					"value": 2,
+					"unit": "rem"
+				}
+			},
+			"2xl": {
+				"$type": "dimension",
+				"$value": {
+					"value": 2.5,
+					"unit": "rem"
+				}
+			},
+			"3xl": {
+				"$type": "dimension",
+				"$value": {
+					"value": 3,
+					"unit": "rem"
+				}
+			}
+		},
+		"radius": {
+			"none": {
+				"$type": "dimension",
+				"$value": {
+					"value": 0,
+					"unit": "px"
+				}
+			},
+			"default": {
+				"$type": "dimension",
+				"$value": {
+					"value": 8,
+					"unit": "px"
+				}
+			},
+			"circle": {
+				"$type": "dimension",
+				"$value": {
+					"value": 999,
+					"unit": "px"
+				}
+			}
+		}
+	}
 }
