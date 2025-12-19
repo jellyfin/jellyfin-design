@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "token-build": "npx tz build",
-    "token-lint": "npx token lint"
+    "token-lint": "npx tz lint"
   },
   "devDependencies": {
     "@terrazzo/cli": "^0.10.5",
