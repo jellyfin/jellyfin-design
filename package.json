@@ -25,7 +25,6 @@
     "Firefox ESR"
   ],
   "scripts": {
-    "tz-token-build": "npx tz build",
     "token-build": "style-dictionary build",
     "token-lint": "npx tz lint"
   },
