@@ -2,11 +2,6 @@
   "name": "jellyfin-design",
   "version": "0.0.0",
   "description": "Jellyfin design tokens and assets",
-  "homepage": "https://github.com/geebru/jellyfin-design#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geebru/jellyfin-design.git"
-  },
   "type": "module",
   "browserslist": [
     "last 2 Firefox versions",
