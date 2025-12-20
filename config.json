@@ -3,6 +3,7 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
+      "transforms": ["fontFamily/css"],
       "buildPath": "dist/css/",
       "files": [
         {
@@ -16,6 +17,7 @@
     },
     "scss": {
       "transformGroup": "scss",
+      "transforms": ["fontFamily/css"],
       "buildPath": "dist/scss/",
       "files": [
         {
@@ -31,6 +33,16 @@
         {
           "destination": "variables.kt",
           "format": "compose/object"
+        }
+      ]
+    },
+    "react-native": {
+      "transformGroup": "react-native",
+      "buildPath": "dist/react-native/",
+      "files": [
+        {
+          "destination": "variables.js",
+          "format": "javascript/es6"
         }
       ]
     }
