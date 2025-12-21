@@ -1,38 +1,36 @@
 {
-  "jf": {
-    "space": {
-			"2xs": {
-				"$type": "dimension",
-				"$value": "0.125rem"
-			},
-			"xs": {
-				"$type": "dimension",
-				"$value": "0.25rem"
-			},
-			"sm": {
-				"$type": "dimension",
-				"$value": "0.5rem"
-			},
-			"md": {
-				"$type": "dimension",
-				"$value": "1rem"
-			},
-			"lg": {
-				"$type": "dimension",
-				"$value": "1.5rem"
-			},
-			"xl": {
-				"$type": "dimension",
-				"$value": "2rem"
-			},
-			"2xl": {
-				"$type": "dimension",
-				"$value": "2.5rem"
-			},
-			"3xl": {
-				"$type": "dimension",
-				"$value": "3rem"
-			}
-		}
+  "space": {
+    "2xs": {
+      "$type": "dimension",
+      "$value": "0.125rem"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "0.25rem"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "2rem"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "2.5rem"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "3rem"
+    }
   }
 }
