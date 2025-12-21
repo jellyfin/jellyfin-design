@@ -1,96 +1,94 @@
 {
-  "jf": {
-    "typography": {
-			"font-family": {
-				"figtree": {
-					"$type": "font-family",
-					"$value": [
-						"Figtree",
-						"Verdana",
-						"sans-serif"
-					]
-				},
-				"noto-sans": {
-					"$type": "font-family",
-					"$value": [
-						"'Noto Sans'",
-						"Arial",
-						"sans-serif"
-					]
-				}
-			},
-			"font-size": {
-				"2xs": {
-					"$type": "dimension",
-					"$value": "0.625rem"
-				},
-				"xs": {
-					"$type": "dimension",
-					"$value": "0.75rem"
-				},
-				"sm": {
-					"$type": "dimension",
-					"$value": "0.875rem"
-				},
-				"md": {
-					"$type": "dimension",
-					"$value": "1rem"
-				},
-				"lg": {
-					"$type": "dimension",
-					"$value": "1.125rem"
-				},
-				"xl": {
-					"$type": "dimension",
-					"$value": "1.25rem"
-				},
-				"2xl": {
-					"$type": "dimension",
-					"$value": "1.5rem"
-				},
-				"3xl": {
-					"$type": "dimension",
-					"$value": "2rem"
-				}
-			},
-			"weight": {
-				"100": {
-					"$type": "number",
-					"$value": 100
-				},
-				"200": {
-					"$type": "number",
-					"$value": 200
-				},
-				"300": {
-					"$type": "number",
-					"$value": 300
-				},
-				"400": {
-					"$type": "number",
-					"$value": 400
-				},
-				"500": {
-					"$type": "number",
-					"$value": 500
-				},
-				"600": {
-					"$type": "number",
-					"$value": 600
-				},
-				"700": {
-					"$type": "number",
-					"$value": 700
-				},
-				"800": {
-					"$type": "number",
-					"$value": 800
-				},
-				"900": {
-					"$type": "number",
-					"$value": 900
-				}
-			}
-		}
+  "typography": {
+    "font-family": {
+      "figtree": {
+        "$type": "font-family",
+        "$value": [
+          "Figtree",
+          "Verdana",
+          "sans-serif"
+        ]
+      },
+      "noto-sans": {
+        "$type": "font-family",
+        "$value": [
+          "'Noto Sans'",
+          "Arial",
+          "sans-serif"
+        ]
+      }
+    },
+    "font-size": {
+      "2xs": {
+        "$type": "dimension",
+        "$value": "0.625rem"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "0.75rem"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "0.875rem"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "1rem"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "1.125rem"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "1.25rem"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "1.5rem"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "2rem"
+      }
+    },
+    "weight": {
+      "100": {
+        "$type": "number",
+        "$value": 100
+      },
+      "200": {
+        "$type": "number",
+        "$value": 200
+      },
+      "300": {
+        "$type": "number",
+        "$value": 300
+      },
+      "400": {
+        "$type": "number",
+        "$value": 400
+      },
+      "500": {
+        "$type": "number",
+        "$value": 500
+      },
+      "600": {
+        "$type": "number",
+        "$value": 600
+      },
+      "700": {
+        "$type": "number",
+        "$value": 700
+      },
+      "800": {
+        "$type": "number",
+        "$value": 800
+      },
+      "900": {
+        "$type": "number",
+        "$value": 900
+      }
+    }
   }
 }

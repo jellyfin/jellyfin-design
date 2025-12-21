@@ -1,18 +1,16 @@
 {
-  "jf": {
-    "radius": {
-			"none": {
-				"$type": "dimension",
-				"$value": "0"
-			},
-			"default": {
-				"$type": "dimension",
-				"$value": "8px"
-			},
-			"circle": {
-				"$type": "dimension",
-				"$value": "999px"
-			}
-		}
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "default": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "circle": {
+      "$type": "dimension",
+      "$value": "999px"
+    }
   }
 }
