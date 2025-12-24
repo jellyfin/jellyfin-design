@@ -1,18 +1,27 @@
-import { formats } from "style-dictionary/enums";
+// Convert strings to PascalCase by capitalizing first letter of the string.
+// Token nodes beyond the first group will already be capitalized.
+function toPascalCase(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
-const { composeObject } = formats;
 
+// Custom file object for compose/object use.
+// Generates a unique, Pascal case file for each top-level token category
+// and adds required class and package names.
 function generateComposeFiles(categories) {
-    return categories.map((category) => ({
-        destination: `${category}Tokens.kt`,
-        format: composeObject,
-        filter: (token) => token.path[0] === category,
-        options: {
-            className: `${category}Tokens`,
-            packageName: 'org.jellyfin.design.tokens',
-            showFileHeader: false
-        }
-    }));
+    return categories.map((category) => {
+        const pascalCategory = toPascalCase(category);
+        return {
+            destination: `${pascalCategory}Tokens.kt`,
+            format: "compose/object",
+            filter: (token) => token.path[0] === category,
+            options: {
+                className: `${pascalCategory}Tokens`,
+                packageName: 'org.jellyfin.design.tokens',
+                showFileHeader: false
+            }
+        };
+    });
 }
 
 export default {
