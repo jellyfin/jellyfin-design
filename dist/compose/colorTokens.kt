@@ -6,7 +6,7 @@ package org.jellyfin.design.tokens
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
-object colorTokens {
+object ColorTokens {
   val colorBlue100 = Color(0xffcff3ff)
   val colorBlue200 = Color(0xff8ee2ff)
   val colorBlue300 = Color(0xff46cfff)

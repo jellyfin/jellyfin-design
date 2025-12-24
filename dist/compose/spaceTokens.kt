@@ -6,7 +6,7 @@ package org.jellyfin.design.tokens
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
-object spaceTokens {
+object SpaceTokens {
   val space2xl = 40.00.dp
   val space2xs = 2.00.dp
   val space3xl = 48.00.dp

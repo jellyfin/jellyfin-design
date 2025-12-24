@@ -6,7 +6,7 @@ package org.jellyfin.design.tokens
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
-object typographyTokens {
+object TypographyTokens {
   val typographyFontFamilyFigtree = Figtree,Verdana,sans-serif
   val typographyFontFamilyNotoSans = 'Noto Sans',Arial,sans-serif
   val typographyFontSize2xl = 24.00.dp
