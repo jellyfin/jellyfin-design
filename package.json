@@ -20,7 +20,7 @@
     "Firefox ESR"
   ],
   "scripts": {
-    "token-build": "style-dictionary build"
+    "token-build": "style-dictionary build --config config.mjs"
   },
   "devDependencies": {
     "style-dictionary": "^4.4.0"
