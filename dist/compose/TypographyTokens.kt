@@ -1,14 +1,12 @@
 
 
 
-package org.jellyfin.design.tokens
+package org.jellyfin.design.token
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object TypographyTokens {
-  val typographyFontFamilyFigtree = Figtree,Verdana,sans-serif
-  val typographyFontFamilyNotoSans = 'Noto Sans',Arial,sans-serif
   val typographyFontSize2xl = 24.00.dp
   val typographyFontSize2xs = 10.00.dp
   val typographyFontSize3xl = 32.00.dp
