@@ -4,22 +4,23 @@ function toPascalCase(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-
 // Custom file object for compose/object use.
-// Generates a unique, Pascal case file for each top-level token category
+// Generates a unique file for each top-level token category
 // and adds required class and package names.
 function generateComposeFiles(categories) {
     return categories.map((category) => {
         const pascalCategory = toPascalCase(category);
+        const className = `${pascalCategory}Tokens`;
         return {
-            destination: `${pascalCategory}Tokens.kt`,
+            destination: `${className}.kt`,
             format: "compose/object",
-            filter: (token) => token.path[0] === category,
+            filter: (token) =>
+                token.path[0] === category && token.$type !== "font-family",
             options: {
-                className: `${pascalCategory}Tokens`,
-                packageName: 'org.jellyfin.design.tokens',
-                showFileHeader: false
-            }
+                className,
+                packageName: "org.jellyfin.design.token",
+                showFileHeader: false,
+            },
         };
     });
 }
@@ -58,8 +59,13 @@ export default {
             transformGroup: "compose",
             buildPath: "dist/compose/",
             files: [
-                ...generateComposeFiles(["color", "space", "typography", "radius"]),
-            ]
+                ...generateComposeFiles([
+                    "color",
+                    "space",
+                    "typography",
+                    "radius",
+                ]),
+            ],
         },
         "react-native": {
             transformGroup: "react-native",
