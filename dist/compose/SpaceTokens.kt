@@ -1,7 +1,7 @@
 
 
 
-package org.jellyfin.design.tokens
+package org.jellyfin.design.token
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
